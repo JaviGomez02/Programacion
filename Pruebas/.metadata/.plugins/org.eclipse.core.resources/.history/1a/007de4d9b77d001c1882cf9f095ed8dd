@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static Scanner teclado=new Scanner (System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static String leerCadena(String texto) {
+		System.out.println(texto);
+		return teclado.nextLine();
+	}
+}

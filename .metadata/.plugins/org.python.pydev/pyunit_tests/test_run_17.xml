@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="0" failures="1" finished="true" name="Test Run: 18" tests="1" total_time="Finished in: 0.00 secs."/>
+    <test location="/home/estudiante/Documents/Dawn/Programación/Ejercicios3/tests/tests.py" status="fail" test="Test.testData" time="">
+        <stdout/>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "/home/estudiante/Documents/Dawn/Programación/Ejercicios3/tests/tests.py", line 71, in testData
+    self.assert_(ejercicios.numberDivisorPrime(-8)== -10)
+AssertionError: False is not true
+]]></stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Ejercicios3 tests.py (1)"/>
+]]></launch_memento>
+    </launch>
+</pydev-testsuite>

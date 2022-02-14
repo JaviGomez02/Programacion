@@ -1,0 +1,9 @@
+def contraseña(cadena):
+    if len(cadena)>=8:
+        for i in range(len(cadena)):
+            if
+    else:
+        return False 
+    
+print(contraseña("aaa"))
+        

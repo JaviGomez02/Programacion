@@ -1,0 +1,84 @@
+#Ejercicio 1
+# def factorial(num):
+#     if num==0:
+#         result=1
+#     elif num>0:
+#         result=1
+#         while num>0:
+#             result=result*num
+#             num=num-1
+#     elif num<0:
+#         result=-1
+#     return result
+#
+# print(factorial(5))
+
+
+
+
+
+
+
+
+
+#Ejercicio 2
+# def leapYear(num):
+#     if num==0:
+#         result=-1
+#     elif (num%4==0 and num%100!=0) or num%400==0:
+#         result=1
+#     else:
+#         result=-1
+#     return result
+#
+# print(leapYear(2012))
+
+
+#Ejercicio 3
+# def daysInMonth(mes, anno):
+#     if mes<1 or mes>12 or anno<=0:
+#         numeroDias=-1
+#     elif mes==4 or mes==6 or mes==9 or mes==11:
+#         numeroDias=30
+#     elif mes==2 and leapYear(anno)==1:
+#         numeroDias=29
+#     elif mes==2:
+#         numeroDias=28
+#     else:
+#         numeroDias=31
+#     return numeroDias
+
+
+
+#Ejercicio 4
+
+# def dayOfWeek(day, month, year):
+#     a=(14-month)/12
+#     y=year-a
+#     m=month+12*a-2
+#     d=round((day+y+y/4-y/100+y/400+(31*m)/12)%7)
+#     return (d)
+#
+# print(dayOfWeek(29,10,2019))
+
+#Ejercicio 5
+# def myPower(num, num2):
+#     result=1
+#     if num2==0:
+#         result=1
+#     elif num2<0:
+#         result=-1
+#     else:
+#         while num2>=1:
+#             result=result*num
+#             num2=num2-1
+#     return result
+# print(myPower(2,-5))
+
+
+#Ejercicio 6
+def numberOfNumbers(num):
+    result=1
+    while num>10: 
+        
+        

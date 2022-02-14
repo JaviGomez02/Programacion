@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="3" align="center">
+        <tr>
+            <td bgcolor="901774" width="300" align="center">
+                <img src="{{ url_for('static', filename='multiplicacion-PhotoRoom.png')}}" width="150"/>
+            </td>
+            <td bgcolor="901774">
+                <font face="Arial" size="5">Bienvenido a nuestra paginas de multiplicacion de dos numeros</font>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="CE81BC">
+                <font face="Arial" size="3">Introduce los números en el siguiente formulario y realiza la operacion</font>
+            </td>
+            <td bgcolor="CE81BC">
+                <form action="/accionMultiplicar" method="post">
+                    <p>Introduce el primer numero:
+                        <input type="number" name="numero1" required>
+                    </p>
+                    <p>Introduce el segundo numero:
+                        <input type="number" name="numero2" required>
+                    </p>
+                    <p>
+                        <input type="submit" value="Multiplicar">
+                    </p>
+            
+            
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" bgcolor="CE81BC">
+                Pulsa <a href="/menu">aqui</a> para volver a la página principal
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static Scanner teclado=new Scanner (System.in);
+
+	public static void main(String[] args) {
+		int entradas;
+		char dia,tarjeta;
+		double precio=0.0;
+		entradas=leerEntero("Introduce el numero de entradas");
+		dia=leerCaracter("Introduce el dia de la semana (L,M,X,J,V,S,D)");
+		tarjeta=leerCaracter("¿Tienes la tarjeta CineJacaranda? S/N");
+		
+		switch (dia) {
+		case 'M':
+		case 'V':
+		case 'S':
+		case 'D':
+		case 'L': {
+			for (int i = 0; i < entradas; i++) {
+				precio=precio+8;
+			}
+			break;
+			
+		}
+		case 'X':{
+			for (int i = 0; i < entradas; i++) {
+				precio=precio+5;
+			}
+			break;
+		}
+		case 'J':{
+			if (entradas>1) {
+				if (entradas%2==0) {
+					for (int i = 0; i < entradas; i=i+2) {
+						precio=precio+11;
+					}
+				}
+				else {
+					for (int i = 1; i < entradas; i=i+2) {
+						precio=precio+11;
+					}
+					precio=precio+8;
+				}
+			}
+			else {
+				precio=8;
+			}
+			break;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + dia);
+		}
+		System.out.println(precio);
+		
+		
+		
+		
+	}
+
+	public static String leerCadena(String texto) {
+		System.out.println(texto);
+		return teclado.nextLine();
+	}
+	public static int leerEntero(String texto) {
+		System.out.println(texto);
+		return Integer.parseInt(teclado.nextLine());
+	}
+	public static char leerCaracter(String texto) {
+		System.out.println(texto);
+		return teclado.nextLine().charAt(0);
+	}
+}

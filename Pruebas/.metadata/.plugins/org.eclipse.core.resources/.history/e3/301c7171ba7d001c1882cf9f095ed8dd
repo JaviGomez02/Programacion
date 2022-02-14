@@ -1,0 +1,107 @@
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static Scanner teclado=new Scanner (System.in);
+
+	public static void main(String[] args) {
+		int entradas=1;
+		char dia,tarjeta;
+		double precio;
+		
+		while (entradas!=0) {
+			dia='a';
+			tarjeta='a';
+			precio=0.0;
+			entradas=leerEntero("Introduce el numero de entradas");
+			if (entradas!=0) {
+				while (dia!='L' && dia!='M' && dia!='X' && dia!='J' && dia!='V' && dia!='S' && dia!='D') {
+					dia=leerCaracter("Introduce el dia de la semana (L,M,X,J,V,S,D)");
+					if (dia!='L' && dia!='M' && dia!='X' && dia!='J' && dia!='V' && dia!='S' && dia!='D') {
+						System.out.println("Introduce un dia correcto");
+					}
+				}
+				while (tarjeta!='S' && tarjeta!='N') {
+					tarjeta=leerCaracter("¿Tienes la tarjeta CineJacaranda? S/N");
+					if (tarjeta!='S' && tarjeta!='N') {
+						System.out.println("Introduce S o N");
+					}
+				}
+				switch (dia) {
+				case 'M':
+				case 'V':
+				case 'S':
+				case 'D':
+				case 'L': {
+					for (int i = 0; i < entradas; i++) {
+						precio=precio+8;
+					}
+					break;
+					
+				}
+				case 'X':{
+					for (int i = 0; i < entradas; i++) {
+						precio=precio+5;
+					}
+					break;
+				}
+				case 'J':{
+					if (entradas>1) {
+						if (entradas%2==0) {
+							for (int i = 0; i < entradas; i=i+2) {
+								precio=precio+11;
+							}
+						}
+						else {
+							for (int i = 1; i < entradas; i=i+2) {
+								precio=precio+11;
+							}
+							precio=precio+8;
+						}
+					}
+					else {
+						precio=8;
+					}
+					break;
+				}
+				default:
+					System.out.println("Introduce un valor correcto");
+				}
+				
+				switch (tarjeta) {
+				case 'S': {
+					precio=precio-(precio*0.1);
+					break;
+				}
+				case 'N':{
+					
+				}
+				default:
+					System.out.println("Introduce valores correctos");
+				}
+				System.out.println("El precio total es de "+precio+" euros");
+			}
+			else {
+				System.out.println("Apagando programa");
+			}
+			
+			
+		}
+		
+		
+		
+	}
+//Definimos varios metodos para leer los datos introducidos
+	public static String leerCadena(String texto) {
+		System.out.println(texto);
+		return teclado.nextLine();
+	}
+	public static int leerEntero(String texto) {
+		System.out.println(texto);
+		return Integer.parseInt(teclado.nextLine());
+	}
+	public static char leerCaracter(String texto) {
+		System.out.println(texto);
+		return teclado.nextLine().charAt(0);
+	}
+}

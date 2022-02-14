@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Persona p1=new Persona("Javi",43,'H');
+		System.out.println(p1.toString());
+		
+		p1.setEdad(90);
+		
+		
+		
+	}
+
+}

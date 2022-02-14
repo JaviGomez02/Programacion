@@ -1,0 +1,14 @@
+mesa1=0
+mesa2=0
+mesa3=0
+mesa4=0
+mesa5=0
+mesa6=0
+mesa7=0
+mesa8=0
+mesa9=0
+mesa10=0
+
+grupo=0
+while grupo<0 or grupo>4:
+    grupo=int(input("¿Cuantas personas sois? "))

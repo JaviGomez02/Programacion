@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args){
+		// TODO Auto-generated method stub
+		Persona p1=new Persona("Javi",43,'H');
+		System.out.println(p1.toString());
+		
+		try {
+			p1.setEdad(-90);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println("Edad no permitida");
+		}
+		
+		
+		
+		System.out.println(p1.toString());
+		
+		
+	}
+
+}

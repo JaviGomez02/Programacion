@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="3" width="100%" bordercolor="0B2266">
+        <tr height="200">
+            <td align="center" bgcolor="2E77CA">
+                <img src="{{ url_for('static', filename='calculadora.png')}}" width="150"/>
+            </td>
+            <td align="center" bgcolor="2E77CA">
+                <font face="Arial" size="8">  Bienvenido a la calculadora WEB</font>
+            </td>
+        </tr>
+        <tr height="400">
+            <td width="25%" bgcolor="99C2F0">
+                <font face="Arial" size="5">
+                    -<a href="/sumar">Sumar</a><br><br><br>
+                    -<a href="/resta">Restar</a><br><br><br>
+                    -<a href="/multiplica">Multiplicar</a><br><br><br>
+                    -<a href="/divide">Dividir</a>
+                </font>
+            </td>
+            <td width="75%" align="center" bgcolor="99C2F0">
+                <p><font size="6" face="Arial">Por favor, pulse una opcion de la izquierda</font></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="99C2F0">
+                <font size="3" face="Arial">Pagina web creada por Javier Gómez Guerrero</font>
+            </td>
+        </tr>
+</body>
+</html>

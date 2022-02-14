@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Persona p1=new Persona();
+		System.out.println(p1.toString());
+		
+		Persona p2=new Persona("Manolo",23,'M');
+		System.out.println(p2.toString());
+	}
+
+}

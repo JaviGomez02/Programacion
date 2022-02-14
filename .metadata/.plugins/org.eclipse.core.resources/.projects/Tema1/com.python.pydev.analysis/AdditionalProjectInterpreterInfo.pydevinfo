@@ -1,0 +1,71 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/estudiante/Documents/Dawn/Programación/.metadata/.plugins/org.eclipse.core.resources/.projects/Tema1/com.python.pydev.analysis/v2_indexcache
+Tema2.__init__|1635836917397902463|/home/estudiante/Documents/Dawn/Programación/Tema1/Tema2/__init__.py
+15|1634556696767861000|/home/estudiante/Documents/Dawn/Programación/Tema1/15.py
+Tema2.MediaCadena|1635841256907643661|/home/estudiante/Documents/Dawn/Programación/Tema1/Tema2/MediaCadena.py
+e1|1635510320728095050|/home/estudiante/Documents/Dawn/Programación/Tema1/e1.py
+e2|1635230190715204732|/home/estudiante/Documents/Dawn/Programación/Tema1/e2.py
+e3|1635230220907424295|/home/estudiante/Documents/Dawn/Programación/Tema1/e3.py
+e4|1635235390471075656|/home/estudiante/Documents/Dawn/Programación/Tema1/e4.py
+Pruebas.FcoJavierGómezE1|1635490744660912900|/home/estudiante/Documents/Dawn/Programación/Tema1/Pruebas/FcoJavierGómezE1.py
+5|1634625255634399000|/home/estudiante/Documents/Dawn/Programación/Tema1/5.py
+6|1634282115883087000|/home/estudiante/Documents/Dawn/Programación/Tema1/6.py
+Pruebas.FcoJavierGomezE2|1635494085046271462|/home/estudiante/Documents/Dawn/Programación/Tema1/Pruebas/FcoJavierGomezE2.py
+Pruebas.FcoJavierGomezE3|1635492326044070272|/home/estudiante/Documents/Dawn/Programación/Tema1/Pruebas/FcoJavierGomezE3.py
+10|1634282532168929000|/home/estudiante/Documents/Dawn/Programación/Tema1/10.py
+Tema2.Media|1635838248147623437|/home/estudiante/Documents/Dawn/Programación/Tema1/Tema2/Media.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+3=/home/estudiante/Documents/Dawn/Programación/Tema1/e3.py
+23=/home/estudiante/Documents/Dawn/Programación/Tema1/e4.py
+15=/home/estudiante/Documents/Dawn/Programación/Tema1/e2.py
+10=15
+19=/home/estudiante/Documents/Dawn/Programación/Tema1/e1.py
+7=/home/estudiante/Documents/Dawn/Programación/Tema1/Pruebas/FcoJavierGómezE1.py
+14=Tema2.MediaCadena
+17=/home/estudiante/Documents/Dawn/Programación/Tema1/Tema2/Media.py
+9=/home/estudiante/Documents/Dawn/Programación/Tema1/15.py
+21=/home/estudiante/Documents/Dawn/Programación/Tema1/Pruebas/FcoJavierGomezE3.py
+20=e1
+16=e2
+4=e3
+11=/home/estudiante/Documents/Dawn/Programación/Tema1/5.py
+24=e4
+8=Pruebas.FcoJavierGómezE1
+1=/home/estudiante/Documents/Dawn/Programación/Tema1/10.py
+12=5
+5=/home/estudiante/Documents/Dawn/Programación/Tema1/Pruebas/FcoJavierGomezE2.py
+13=/home/estudiante/Documents/Dawn/Programación/Tema1/Tema2/MediaCadena.py
+6=Pruebas.FcoJavierGomezE2
+22=Pruebas.FcoJavierGomezE3
+2=10
+18=Tema2.Media
+-- END DICTIONARY
+-- START TREE 1
+20
+A|1|A!1^5#1*19@
+B|1|B!1^6#1*19@
+C|1|C!1^7#1*19@
+a|1|a!3^1#1*35@
+ano|1|ano!5^2#1*51@
+cov|1|covid!7^3#1*67@
+dia|1|dia!9^1#1*83@
+dis|1|distancia!11^5#1*99@
+eda|2|edad!7^2#1*67@edad!5^17#5*51@
+lee|1|leer!13^3#5*114@
+lis|1|lista!15^1#1*131@
+med|1|media!17^9#1*147@
+mes|1|mes!5^1#1*51@
+mul|1|mult!15^3#1*131@
+num|12|num!17^4#5*147@num!19^1#1*163@num1!11^3#1*99@numClave!21^6#5*179@num2!13^12#1*115@num1!13^9#1*115@num2!11^4#1*99@num!15^2#1*131@numeros!21^3#1*179@num!23^1#1*195@num3!13^15#1*115@num!3^3#5*35@
+pac|3|pac50!5^5#1*51@pac31_49!5^4#1*51@pac30!5^3#1*51@
+res|1|resto!21^10#9*179@
+sem|1|semana!9^2#1*83@
+sum|3|suma!17^2#1*147@suma!13^8#1*115@suma!21^4#1*179@
+vac|1|vac!7^4#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

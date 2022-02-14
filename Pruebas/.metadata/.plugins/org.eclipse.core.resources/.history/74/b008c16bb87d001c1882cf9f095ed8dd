@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static Scanner teclado=new Scanner (System.in);
+
+	public static void main(String[] args) {
+		int ano;
+		String fecha;
+		ano=leerEntero("Introduce el año actual");
+		fecha=leerCadena("Introduce tu fecha de nacimiento (dd/mm/yyyy)");
+		
+
+	}
+
+	public static String leerCadena(String texto) {
+		System.out.println(texto);
+		return teclado.nextLine();
+	}
+	public static int leerEntero(String texto) {
+		System.out.println(texto);
+		return Integer.parseInt(teclado.nextLine());
+	}
+	public static Double FCM(int ano, String fecha) {
+		String cadena;
+		Double frecuencia;
+		int edad;
+		cadena=fecha.substring(6);
+		
+		
+		
+		
+	}
+}

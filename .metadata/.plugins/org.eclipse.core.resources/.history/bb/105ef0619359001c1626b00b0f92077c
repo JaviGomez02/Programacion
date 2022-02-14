@@ -1,0 +1,11 @@
+def telegrama(texto,longitud):
+    lista=[]
+    cadena=""
+    while texto[i]!=" ":
+    for i in range(len(texto)):
+        
+        
+        
+    return cadena
+
+print(telegrama("hola que tal", 2))

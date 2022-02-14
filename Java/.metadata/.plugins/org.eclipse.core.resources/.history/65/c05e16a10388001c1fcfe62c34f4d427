@@ -1,0 +1,47 @@
+import java.util.Iterator;
+import java.util.Random;
+
+import org.w3c.dom.ranges.Range;
+
+public class Password {
+
+	 //Atributos
+	private int longitud=8;
+	private String contrasena;
+	
+	//Constructores
+	public Password() {
+		super();
+	}
+	public Password(int longitud) {
+		super();
+		this.longitud = longitud;
+	}
+	
+	//Métodos
+	
+	
+	
+	public String generarPassword() {
+		String resultado="";
+		int numero;
+		for (int i = 0; i < longitud; i++) {
+			numero=Math.random();
+			
+			
+			
+			
+			
+		}
+		
+	
+		return resultado;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

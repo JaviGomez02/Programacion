@@ -1,0 +1,28 @@
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// Transforma esta estructura en un bucle for:
+
+//		int num = 0, a = 3;
+//		do{
+//			a+=num;
+//			num++;
+//		}while(num > 15);
+//		System.out.println(a);
+
+		
+		//Podemos observar que en el bucle anterior se realiza la operacion a+=num una vez, pero como num=0 el resultado de a es 3
+		
+		int a=3;
+		int num;
+		for (num=20; num > 15; num++) {
+			if (num==20) {
+				num=0;
+			}
+			a+=num;
+		}
+		System.out.println(a);
+	}
+
+}

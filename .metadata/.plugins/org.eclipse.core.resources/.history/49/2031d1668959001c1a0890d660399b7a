@@ -1,0 +1,14 @@
+mayusculas=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+
+
+
+def contraseña(cadena):
+    if len(cadena)>=8:
+        for i in range(len(cadena)):
+            if cadena[i] in mayusculas:
+                flag=True
+    else:
+        return False 
+    
+print(contraseña(""))
+        

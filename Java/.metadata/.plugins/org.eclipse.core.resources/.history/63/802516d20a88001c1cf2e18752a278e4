@@ -1,0 +1,27 @@
+
+public class Persona {
+
+	//Atributos
+	private String nombre;
+	private int edad;
+	private String DNI;
+	private String password;
+	private char sexo;
+	private int peso;
+	private double altura;
+	public Persona(String nombre, int edad, String dNI, String password, char sexo, int peso, double altura) {
+		super();
+		this.nombre = nombre;
+		this.edad = edad;
+		DNI = dNI;
+		this.password = new password();
+		this.sexo = sexo;
+		this.peso = peso;
+		this.altura = altura;
+	}
+	
+	//Constructores
+	
+	
+	
+}

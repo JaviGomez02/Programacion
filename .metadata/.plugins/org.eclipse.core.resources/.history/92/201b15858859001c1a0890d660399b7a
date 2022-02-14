@@ -1,0 +1,4 @@
+def contraseña(cadena):
+    for i in range(len(cadena)):
+        
+        

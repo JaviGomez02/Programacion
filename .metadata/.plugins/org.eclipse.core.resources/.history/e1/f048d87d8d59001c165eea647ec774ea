@@ -1,0 +1,3 @@
+def telegrama(cadena,longitud):
+    for i in range(len(cadena)):
+        if cadena[i]!=" ":

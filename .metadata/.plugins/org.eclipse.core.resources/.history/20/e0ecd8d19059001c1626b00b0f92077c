@@ -1,0 +1,18 @@
+mesa1=0
+mesa2=0
+mesa3=0
+mesa4=0
+mesa5=0
+mesa6=0
+mesa7=0
+mesa8=0
+mesa9=0
+mesa10=0
+
+grupo=-2
+while grupo!=-1
+    if grupo!=-1
+while grupo<0 or grupo>4:
+    grupo=int(input("¿Cuantas personas sois? "))
+    if grupo<0 or grupo>4:
+        print("Solo se permite un máximo de 4 clientes")

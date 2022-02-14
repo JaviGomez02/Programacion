@@ -1,0 +1,1 @@
+opcion=int(input("Indica que quieres "))
